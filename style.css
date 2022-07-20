@@ -1,0 +1,96 @@
+html, body { min-width:800px;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    align-items: center;
+    height: 25rem;
+    margin-top: 10rem;
+    position: relative;
+}
+
+/* Media rules. No matter what I do, this looks awful, so I'm giving up on doing more here until I can get some guidance. */
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.img {
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-left: 1em;
+    border: solid 1px #000814;
+}
+
+h2 {
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 2em;
+    margin-left: 2em;
+    font-size: 0.8em;
+}
+
+button {
+    width: 9em;
+    height: 3em;
+    border-radius: 20px;
+    border: none;
+    margin: 4em 2em 2em 2em;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #ffbd00;
+    transition-duration: 0.5s;
+}
+
+/* Stocks section */
+
+.wrapperOne {
+    width: 18em;
+    height: 25em;
+    background-color: #390099;
+    color: #ffffff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#oneBtn {
+    color: #390099;
+}
+
+/* Buy the dip section */
+
+.wrapperTwo {
+    width: 18em;
+    height: 25em;
+    background-color: #9e0059;
+    color: #ffffff;
+}
+#twoBtn {
+    color: #9e0059;
+}
+
+/* Bankruptcy Section */
+
+.wrapperThree {
+    width: 18em;
+    height: 25em;
+    background-color: #ff0054;
+    color: #ffffff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+#threeBtn {
+    color: #ff0054;
+}
